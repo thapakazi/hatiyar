@@ -5,4 +5,5 @@ RUN apk add \
     postgresql-client \
     tree \
     bash \
-    curl 
+    curl  \
+    net-tools 
