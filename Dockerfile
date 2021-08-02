@@ -18,5 +18,6 @@ RUN apk add \
     net-tools && \
 	rm /var/cache/apk/*
 
-ENTRYPOINT ["aws"]
+RUN apk add jq
 
+ENTRYPOINT ["aws"]
