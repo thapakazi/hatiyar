@@ -16,9 +16,8 @@ RUN apk add \
     bash \
     curl  \
     git \
+    jq \
     net-tools && \
 	rm /var/cache/apk/*
 
 RUN apk add jq
-
-ENTRYPOINT ["aws"]
