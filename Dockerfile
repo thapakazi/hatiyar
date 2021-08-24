@@ -15,6 +15,7 @@ RUN apk add \
     tree \
     bash \
     curl  \
+    git \
     net-tools && \
 	rm /var/cache/apk/*
 
